@@ -26,6 +26,10 @@ h6 {
   font-family: "Raleway", serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -90,7 +94,7 @@ button {
   padding-bottom: 50px;
 }
 .main-1 {
-  padding: 30px;
+  padding: 0px 30px;
   text-align: center;
 }
 
@@ -170,7 +174,7 @@ hr {
 .main-text3 div:nth-child(2) .inner {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items:flex-start;
   padding: 2;
 }
 .main-text3 div:nth-child(2) h4 {
@@ -185,10 +189,77 @@ hr {
 }
 
 .footer-1 h3 {
-  padding: 20px 0px;
-  color: var(--Light-Gray);
-  padding-bottom: 30px;
+  color: white;
+  padding-bottom: 10px;
 }
+
+.footer-1 p {
+  padding: 10px 0px;
+  color: var(--Light-Grayish-Blue);
+  padding-bottom: 10px;
+}
+input[type="email_2"] {
+  width: 250px;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 14px;
+  border: 1px solid var(--Very-Dark-Blue);
+  border-radius: 4px;
+}
+
+.button_2 {
+  margin-top: 20px;
+  width: 250px;
+  padding: 16px;
+  background-color: var(--Bright-Blue);
+  color: white;
+  border: none;
+}
+
+.final_footer {
+  background-color: var(--Very-Dark-Blue);
+  padding: 50px 30px;
+}
+
+.final_footer .logo{
+  padding-bottom: 24px;
+}
+
+.contact_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 0px;
+  color: var(--Light-Grayish-Blue);
+  align-items: center;
+}
+
+.contact_1 img {
+ height: 15px;
+ width: 15px;
+}
+
+.more_details-1 {
+  color: var(--Light-Grayish-Blue);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.more_details-2 {
+  color: var(--Light-Grayish-Blue);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 280px) {
 }
