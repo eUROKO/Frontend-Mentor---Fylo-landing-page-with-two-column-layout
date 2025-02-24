@@ -49,7 +49,6 @@ nav img {
 
 .hero {
   margin: 20px;
-  max-width: ;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -132,10 +131,11 @@ hr {
 
 .main-text3 {
   margin: 0 40px;
-  background-color: var(--Light-Gray);
+  background-color: white;
+  padding: 20px 0px;
 }
 
-.main-text3 div:nth-child(1){
+.main-text3 div:nth-child(1) {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -144,52 +144,50 @@ hr {
   font-size: 12px;
 }
 
-.main-text3 div:nth-child(1) img{
+
+.main-text3 div:nth-child(1) img {
   padding-top: 10px;
 }
 
-.main-text3 div:nth-child(1) p{
-padding-top: 10px;
+.main-text3 div:nth-child(1) p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.main-text3 div:nth-child(2){
+.main-text3 div:nth-child(2) {
   display: flex;
-  padding: 0 20px ;
+  padding: 0 20px;
   align-items: center;
   font-size: 12px;
 }
 
-.main-text3 div:nth-child(2) img{
-  border-radius:100%;
+.main-text3 div:nth-child(2) img {
+  border-radius: 100%;
   height: 30px;
   width: 30px;
 }
 
-.main-text3 div:nth-child(2) .inner{
+.main-text3 div:nth-child(2) .inner {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 2;
+}
+.main-text3 div:nth-child(2) h4 {
+  padding: 0;
 }
 
-.footer-1{
+.footer-1 {
   background-color: var(--Desaturated-Blue);
   align-items: center;
   text-align: center;
   padding: 30px;
 }
 
-.footer-1 h3{
+.footer-1 h3 {
   padding: 20px 0px;
   color: var(--Light-Gray);
-}
-
-.footer-1 p{
-  color: var(--Light-Gray);
-  font-size: 18px;
-}
-
-.link {
-  padding: 20px 20px;
-  color: var(--Light-Gray);
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 280px) {
